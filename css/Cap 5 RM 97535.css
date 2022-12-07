@@ -1,0 +1,75 @@
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+i {
+  color: ghostwhite;
+  text-align: left;
+  letter-spacing: 5px;
+  vertical-align: middle;
+}
+
+#c2 {
+  font-size: 27px;
+}
+
+#c3 {
+  font-size: 35px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  background-color: ghostwhite;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a:hover {
+  color: ghostwhite;
+}
+
+footer a:hover {
+  color: ghostwhite;
+  background-color: blue;
+}
+
+header, main, footer {
+  background-color: cadetblue;
+  border: 1px solid #c0c0c0;
+  font-size: 20px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+}
+
+form {
+  text-align: left;
+}
+
+@media screen and (min-width: 1920px) {
+  main {
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  main {
+    height: 60vh;
+  }
+}
